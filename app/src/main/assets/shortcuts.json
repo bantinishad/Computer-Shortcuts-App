@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "category": "General",
+    "action": "Copy",
+    "windows": "Ctrl + C",
+    "mac": "Cmd + C",
+    "linux": "Ctrl + C",
+    "description": "Copy selected text or item to clipboard"
+  },
+  {
+    "id": 2,
+    "category": "General",
+    "action": "Paste",
+    "windows": "Ctrl + V",
+    "mac": "Cmd + V",
+    "linux": "Ctrl + V",
+    "description": "Paste content from clipboard"
+  },
+  {
+    "id": 3,
+    "category": "General",
+    "action": "Cut",
+    "windows": "Ctrl + X",
+    "mac": "Cmd + X",
+    "linux": "Ctrl + X",
+    "description": "Cut selected content to clipboard"
+  },
+  {
+    "id": 4,
+    "category": "General",
+    "action": "Undo",
+    "windows": "Ctrl + Z",
+    "mac": "Cmd + Z",
+    "linux": "Ctrl + Z",
+    "description": "Undo the last action"
+  },
+  {
+    "id": 5,
+    "category": "General",
+    "action": "Redo",
+    "windows": "Ctrl + Y",
+    "mac": "Cmd + Shift + Z",
+    "linux": "Ctrl + Y",
+    "description": "Redo the last undone action"
+  },
+  {
+    "id": 6,
+    "category": "General",
+    "action": "Select All",
+    "windows": "Ctrl + A",
+    "mac": "Cmd + A",
+    "linux": "Ctrl + A",
+    "description": "Select all content in current context"
+  },
+  {
+    "id": 7,
+    "category": "General",
+    "action": "Save",
+    "windows": "Ctrl + S",
+    "mac": "Cmd + S",
+    "linux": "Ctrl + S",
+    "description": "Save current file or document"
+  },
+  {
+    "id": 8,
+    "category": "General",
+    "action": "Print",
+    "windows": "Ctrl + P",
+    "mac": "Cmd + P",
+    "linux": "Ctrl + P",
+    "description": "Open print dialog"
+  },
+  {
+    "id": 9,
+    "category": "General",
+    "action": "New File",
+    "windows": "Ctrl + N",
+    "mac": "Cmd + N",
+    "linux": "Ctrl + N",
+    "description": "Create a new file or document"
+  },
+  {
+    "id": 10,
+    "category": "General",
+    "action": "Open File",
+    "windows": "Ctrl + O",
+    "mac": "Cmd + O",
+    "linux": "Ctrl + O",
+    "description": "Open an existing file"
+  },
+  {
+    "id": 11,
+    "category": "General",
+    "action": "Save As",
+    "windows": "Ctrl + Shift + S",
+    "mac": "Cmd + Shift + S",
+    "linux": "Ctrl + Shift + S",
+    "description": "Save file with a new name"
+  },
+  {
+    "id": 12,
+    "category": "General",
+    "action": "Close",
+    "windows": "Ctrl + W",
+    "mac": "Cmd + W",
+    "linux": "Ctrl + W",
+    "description": "Close current file or tab"
+  },
+  {
+    "id": 13,
+    "category": "General",
+    "action": "Quit Application",
+    "windows": "Alt + F4",
+    "mac": "Cmd + Q",
+    "linux": "Ctrl + Q",
+    "description": "Exit the application completely"
+  },
+  {
+    "id": 14,
+    "category": "General",
+    "action": "Zoom In",
+    "windows": "Ctrl + Plus",
+    "mac": "Cmd + Plus",
+    "linux": "Ctrl + Plus",
+    "description": "Increase zoom level"
+  },
+  {
+    "id": 15,
+    "category": "General",
+    "action": "Zoom Out",
+    "windows": "Ctrl + Minus",
+    "mac": "Cmd + Minus",
+    "linux": "Ctrl + Minus",
+    "description": "Decrease zoom level"
+  },
+  {
+    "id": 16,
+    "category": "General",
+    "action": "Reset Zoom",
+    "windows": "Ctrl + 0",
+    "mac": "Cmd + 0",
+    "linux": "Ctrl + 0",
+    "description": "Reset zoom to 100%"
+  },
+  {
+    "id": 17,
+    "category": "General",
+    "action": "Full Screen",
+    "windows": "F11",
+    "mac": "Cmd + Ctrl + F",
+    "linux": "F11",
+    "description": "Toggle full screen mode"
+  },
+  {
+    "id": 18,
+    "category": "General",
+    "action": "Preferences",
+    "windows": "Ctrl + Comma",
+    "mac": "Cmd + Comma",
+    "linux": "Ctrl + Comma",
+    "description": "Open application settings"
+  },
+  {
+    "id": 19,
+    "category": "Browser",
+    "action": "New Tab",
+    "windows": "Ctrl + T",
+    "mac": "Cmd + T",
+    "linux": "Ctrl + T",
+    "description": "Open a new browser tab"
+  },
+  {
+    "id": 20,
+    "category": "Browser",
+    "action": "Close Tab",
+    "windows": "Ctrl + W",
+    "mac": "Cmd + W",
+    "linux": "Ctrl + W",
+    "description": "Close current browser tab"
+  },
+  {
+    "id": 21,
+    "category": "Browser",
+    "action": "Reopen Closed Tab",
+    "windows": "Ctrl + Shift + T",
+    "mac": "Cmd + Shift + T",
+    "linux": "Ctrl + Shift + T",
+    "description": "Reopen the last closed tab"
+  },
+  {
+    "id": 22,
+    "category": "Browser",
+    "action": "Refresh Page",
+    "windows": "F5",
+    "mac": "Cmd + R",
+    "linux": "F5",
+    "description": "Reload current webpage"
+  },
+  {
+    "id": 23,
+    "category": "Browser",
+    "action": "Hard Refresh",
+    "windows": "Ctrl + F5",
+    "mac": "Cmd + Shift + R",
+    "linux": "Ctrl + F5",
+    "description": "Clear cache and reload page"
+  },
+  {
+    "id": 24,
+    "category": "Browser",
+    "action": "Bookmark Page",
+    "windows": "Ctrl + D",
+    "mac": "Cmd + D",
+    "linux": "Ctrl + D",
+    "description": "Add current page to bookmarks"
+  },
+  {
+    "id": 25,
+    "category": "Browser",
+    "action": "Open Downloads",
+    "windows": "Ctrl + J",
+    "mac": "Cmd + Shift + J",
+    "linux": "Ctrl + J",
+    "description": "View browser downloads"
+  },
+  {
+    "id": 26,
+    "category": "Browser",
+    "action": "Incognito Window",
+    "windows": "Ctrl + Shift + N",
+    "mac": "Cmd + Shift + N",
+    "linux": "Ctrl + Shift + N",
+    "description": "Open private browsing window"
+  },
+  {
+    "id": 27,
+    "category": "Browser",
+    "action": "New Window",
+    "windows": "Ctrl + N",
+    "mac": "Cmd + N",
+    "linux": "Ctrl + N",
+    "description": "Open new browser window"
+  },
+  {
+    "id": 28,
+    "category": "Browser",
+    "action": "Home Page",
+    "windows": "Alt + Home",
+    "mac": "Cmd + Shift + H",
+    "linux": "Alt + Home",
+    "description": "Go to home page"
+  },
+  {
+    "id": 29,
+    "category": "Browser",
+    "action": "Back",
+    "windows": "Alt + Left",
+    "mac": "Cmd + [",
+    "linux": "Alt + Left",
+    "description": "Go to previous page"
+  },
+  {
+    "id": 30,
+    "category": "Browser",
+    "action": "Forward",
+    "windows": "Alt + Right",
+    "mac": "Cmd + ]",
+    "linux": "Alt + Right",
+    "description": "Go to next page"
+  },
+  {
+    "id": 31,
+    "category": "Browser",
+    "action": "Address Bar",
+    "windows": "Ctrl + L",
+    "mac": "Cmd + L",
+    "linux": "Ctrl + L",
+    "description": "Focus on address bar"
+  },
+  {
+    "id": 32,
+    "category": "Browser",
+    "action": "Developer Tools",
+    "windows": "F12",
+    "mac": "Cmd + Option + I",
+    "linux": "F12",
+    "description": "Open browser developer tools"
+  },
+  {
+    "id": 33,
+    "category": "Browser",
+    "action": "View Source",
+    "windows": "Ctrl + U",
+    "mac": "Cmd + Option + U",
+    "linux": "Ctrl + U",
+    "description": "View page source code"
+  },
+  {
+    "id": 34,
+    "category": "Browser",
+    "action": "Next Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "Cmd + Option + Right",
+    "linux": "Ctrl + Tab",
+    "description": "Switch to next tab"
+  },
+  {
+    "id": 35,
+    "category": "Browser",
+    "action": "Previous Tab",
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "Cmd + Option + Left",
+    "linux": "Ctrl + Shift + Tab",
+    "description": "Switch to previous tab"
+  },
+  {
+    "id": 36,
+    "category": "Windows",
+    "action": "Minimize Window",
+    "windows": "Win + Down",
+    "mac": "Cmd + M",
+    "linux": "Super + H",
+    "description": "Minimize the active window"
+  },
+  {
+    "id": 37,
+    "category": "Windows",
+    "action": "Maximize Window",
+    "windows": "Win + Up",
+    "mac": "Ctrl + Cmd + F",
+    "linux": "Super + Up",
+    "description": "Maximize the active window"
+  },
+  {
+    "id": 38,
+    "category": "Windows",
+    "action": "Snap Left",
+    "windows": "Win + Left",
+    "mac": "Ctrl + Cmd + Left",
+    "linux": "Super + Left",
+    "description": "Snap window to left half of screen"
+  },
+  {
+    "id": 39,
+    "category": "Windows",
+    "action": "Snap Right",
+    "windows": "Win + Right",
+    "mac": "Ctrl + Cmd + Right",
+    "linux": "Super + Right",
+    "description": "Snap window to right half of screen"
+  },
+  {
+    "id": 40,
+    "category": "Windows",
+    "action": "Switch Windows",
+    "windows": "Alt + Tab",
+    "mac": "Cmd + Tab",
+    "linux": "Alt + Tab",
+    "description": "Switch between open windows"
+  },
+  {
+    "id": 41,
+    "category": "Windows",
+    "action": "Close Window",
+    "windows": "Alt + F4",
+    "mac": "Cmd + Q",
+    "linux": "Alt + F4",
+    "description": "Close the current window"
+  },
+  {
+    "id": 42,
+    "category": "Windows",
+    "action": "Task Manager",
+    "windows": "Ctrl + Shift + Esc",
+    "mac": "Cmd + Option + Esc",
+    "linux": "Ctrl + Alt + Del",
+    "description": "Open task manager"
+  },
+  {
+    "id": 43,
+    "category": "Windows",
+    "action": "Lock Screen",
+    "windows": "Win + L",
+    "mac": "Cmd + Ctrl + Q",
+    "linux": "Super + L",
+    "description": "Lock your computer"
+  },
+  {
+    "id": 44,
+    "category": "Windows",
+    "action": "Desktop",
+    "windows": "Win + D",
+    "mac": "F11",
+    "linux": "Super + D",
+    "description": "Show desktop"
+  },
+  {
+    "id": 45,
+    "category": "Windows",
+    "action": "File Explorer",
+    "windows": "Win + E",
+    "mac": "Cmd + Space then Finder",
+    "linux": "Super + E",
+    "description": "Open file explorer"
+  },
+  {
+    "id": 46,
+    "category": "Windows",
+    "action": "Search",
+    "windows": "Win + S",
+    "mac": "Cmd + Space",
+    "linux": "Super",
+    "description": "Open search"
+  },
+  {
+    "id": 47,
+    "category": "Windows",
+    "action": "Settings",
+    "windows": "Win + I",
+    "mac": "Cmd + Comma",
+    "linux": "Super + I",
+    "description": "Open system settings"
+  },
+  {
+    "id": 48,
+    "category": "Windows",
+    "action": "Run Dialog",
+    "windows": "Win + R",
+    "mac": "Cmd + Space",
+    "linux": "Alt + F2",
+    "description": "Open run command dialog"
+  },
+  {
+    "id": 49,
+    "category": "Text Editing",
+    "action": "Bold",
+    "windows": "Ctrl + B",
+    "mac": "Cmd + B",
+    "linux": "Ctrl + B",
+    "description": "Make selected text bold"
+  },
+  {
+    "id": 50,
+    "category": "Text Editing",
+    "action": "Italic",
+    "windows": "Ctrl + I",
+    "mac": "Cmd + I",
+    "linux": "Ctrl + I",
+    "description": "Make selected text italic"
+  },
+  {
+    "id": 51,
+    "category": "Text Editing",
+    "action": "Underline",
+    "windows": "Ctrl + U",
+    "mac": "Cmd + U",
+    "linux": "Ctrl + U",
+    "description": "Underline selected text"
+  },
+  {
+    "id": 52,
+    "category": "Text Editing",
+    "action": "Find",
+    "windows": "Ctrl + F",
+    "mac": "Cmd + F",
+    "linux": "Ctrl + F",
+    "description": "Open find dialog to search text"
+  },
+  {
+    "id": 53,
+    "category": "Text Editing",
+    "action": "Replace",
+    "windows": "Ctrl + H",
+    "mac": "Cmd + Option + F",
+    "linux": "Ctrl + H",
+    "description": "Find and replace text"
+  },
+  {
+    "id": 54,
+    "category": "Text Editing",
+    "action": "Find Next",
+    "windows": "F3",
+    "mac": "Cmd + G",
+    "linux": "F3",
+    "description": "Find next occurrence"
+  },
+  {
+    "id": 55,
+    "category": "Text Editing",
+    "action": "Find Previous",
+    "windows": "Shift + F3",
+    "mac": "Cmd + Shift + G",
+    "linux": "Shift + F3",
+    "description": "Find previous occurrence"
+  },
+  {
+    "id": 56,
+    "category": "Text Editing",
+    "action": "Go to Line",
+    "windows": "Ctrl + G",
+    "mac": "Cmd + L",
+    "linux": "Ctrl + G",
+    "description": "Jump to specific line number"
+  },
+  {
+    "id": 57,
+    "category": "Text Editing",
+    "action": "Delete Line",
+    "windows": "Ctrl + Shift + K",
+    "mac": "Cmd + Shift + K",
+    "linux": "Ctrl + Shift + K",
+    "description": "Delete entire line"
+  },
+  {
+    "id": 58,
+    "category": "Text Editing",
+    "action": "Duplicate Line",
+    "windows": "Ctrl + D",
+    "mac": "Cmd + D",
+    "linux": "Ctrl + D",
+    "description": "Duplicate current line"
+  },
+  {
+    "id": 59,
+    "category": "Text Editing",
+    "action": "Move Line Up",
+    "windows": "Alt + Up",
+    "mac": "Option + Up",
+    "linux": "Alt + Up",
+    "description": "Move line up"
+  },
+  {
+    "id": 60,
+    "category": "Text Editing",
+    "action": "Move Line Down",
+    "windows": "Alt + Down",
+    "mac": "Option + Down",
+    "linux": "Alt + Down",
+    "description": "Move line down"
+  },
+  {
+    "id": 61,
+    "category": "Screenshots",
+    "action": "Full Screenshot",
+    "windows": "PrtScn",
+    "mac": "Cmd + Shift + 3",
+    "linux": "PrtScn",
+    "description": "Capture entire screen"
+  },
+  {
+    "id": 62,
+    "category": "Screenshots",
+    "action": "Window Screenshot",
+    "windows": "Alt + PrtScn",
+    "mac": "Cmd + Shift + 4 + Space",
+    "linux": "Alt + PrtScn",
+    "description": "Capture active window only"
+  },
+  {
+    "id": 63,
+    "category": "Screenshots",
+    "action": "Area Screenshot",
+    "windows": "Win + Shift + S",
+    "mac": "Cmd + Shift + 4",
+    "linux": "Shift + PrtScn",
+    "description": "Capture selected area of screen"
+  },
+  {
+    "id": 64,
+    "category": "Screenshots",
+    "action": "Screenshot to Clipboard",
+    "windows": "Win + PrtScn",
+    "mac": "Cmd + Ctrl + Shift + 3",
+    "linux": "Ctrl + PrtScn",
+    "description": "Save screenshot to clipboard"
+  },
+  {
+    "id": 65,
+    "category": "VS Code",
+    "action": "Command Palette",
+    "windows": "Ctrl + Shift + P",
+    "mac": "Cmd + Shift + P",
+    "linux": "Ctrl + Shift + P",
+    "description": "Open VS Code command palette"
+  },
+  {
+    "id": 66,
+    "category": "VS Code",
+    "action": "Toggle Terminal",
+    "windows": "Ctrl + `",
+    "mac": "Cmd + `",
+    "linux": "Ctrl + `",
+    "description": "Show or hide integrated terminal"
+  },
+  {
+    "id": 67,
+    "category": "VS Code",
+    "action": "Multi-cursor",
+    "windows": "Ctrl + Alt + Down",
+    "mac": "Cmd + Option + Down",
+    "linux": "Ctrl + Alt + Down",
+    "description": "Add cursor below current line"
+  },
+  {
+    "id": 68,
+    "category": "VS Code",
+    "action": "Comment Line",
+    "windows": "Ctrl + /",
+    "mac": "Cmd + /",
+    "linux": "Ctrl + /",
+    "description": "Toggle line comment"
+  },
+  {
+    "id": 69,
+    "category": "VS Code",
+    "action": "Block Comment",
+    "windows": "Ctrl + Shift + /",
+    "mac": "Cmd + Shift + /",
+    "linux": "Ctrl + Shift + /",
+    "description": "Toggle block comment"
+  },
+  {
+    "id": 70,
+    "category": "VS Code",
+    "action": "Quick Open",
+    "windows": "Ctrl + P",
+    "mac": "Cmd + P",
+    "linux": "Ctrl + P",
+    "description": "Quick open file"
+  },
+  {
+    "id": 71,
+    "category": "VS Code",
+    "action": "Go to Definition",
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "F12",
+    "description": "Go to definition"
+  },
+  {
+    "id": 72,
+    "category": "VS Code",
+    "action": "Peek Definition",
+    "windows": "Alt + F12",
+    "mac": "Option + F12",
+    "linux": "Alt + F12",
+    "description": "Peek definition inline"
+  },
+  {
+    "id": 73,
+    "category": "VS Code",
+    "action": "Format Document",
+    "windows": "Shift + Alt + F",
+    "mac": "Shift + Option + F",
+    "linux": "Shift + Alt + F",
+    "description": "Format entire document"
+  },
+  {
+    "id": 74,
+    "category": "VS Code",
+    "action": "Rename Symbol",
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "description": "Rename symbol"
+  },
+  {
+    "id": 75,
+    "category": "VS Code",
+    "action": "Toggle Sidebar",
+    "windows": "Ctrl + B",
+    "mac": "Cmd + B",
+    "linux": "Ctrl + B",
+    "description": "Show or hide sidebar"
+  },
+  {
+    "id": 76,
+    "category": "Excel",
+    "action": "Insert Function",
+    "windows": "Shift + F3",
+    "mac": "Shift + F3",
+    "linux": "Shift + F3",
+    "description": "Open function insert dialog"
+  },
+  {
+    "id": 77,
+    "category": "Excel",
+    "action": "Format Cells",
+    "windows": "Ctrl + 1",
+    "mac": "Cmd + 1",
+    "linux": "Ctrl + 1",
+    "description": "Open format cells dialog"
+  },
+  {
+    "id": 78,
+    "category": "Excel",
+    "action": "Insert Row",
+    "windows": "Ctrl + Shift + +",
+    "mac": "Ctrl + I",
+    "linux": "Ctrl + Shift + +",
+    "description": "Insert new row above current"
+  },
+  {
+    "id": 79,
+    "category": "Excel",
+    "action": "Delete Row",
+    "windows": "Ctrl + -",
+    "mac": "Cmd + -",
+    "linux": "Ctrl + -",
+    "description": "Delete selected row"
+  },
+  {
+    "id": 80,
+    "category": "Excel",
+    "action": "Edit Cell",
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "description": "Edit active cell"
+  },
+  {
+    "id": 81,
+    "category": "Excel",
+    "action": "Fill Down",
+    "windows": "Ctrl + D",
+    "mac": "Cmd + D",
+    "linux": "Ctrl + D",
+    "description": "Fill down from cell above"
+  },
+  {
+    "id": 82,
+    "category": "Excel",
+    "action": "Fill Right",
+    "windows": "Ctrl + R",
+    "mac": "Cmd + R",
+    "linux": "Ctrl + R",
+    "description": "Fill right from cell left"
+  },
+  {
+    "id": 83,
+    "category": "Excel",
+    "action": "Insert Chart",
+    "windows": "Alt + F1",
+    "mac": "Fn + Option + F1",
+    "linux": "Alt + F1",
+    "description": "Insert chart"
+  },
+  {
+    "id": 84,
+    "category": "Excel",
+    "action": "Autosum",
+    "windows": "Alt + =",
+    "mac": "Cmd + Shift + T",
+    "linux": "Alt + =",
+    "description": "Insert autosum formula"
+  },
+  {
+    "id": 85,
+    "category": "Excel",
+    "action": "Go to Cell",
+    "windows": "Ctrl + G",
+    "mac": "Ctrl + G",
+    "linux": "Ctrl + G",
+    "description": "Go to specific cell"
+  },
+  {
+    "id": 86,
+    "category": "Photoshop",
+    "action": "New Layer",
+    "windows": "Ctrl + Shift + N",
+    "mac": "Cmd + Shift + N",
+    "linux": "Ctrl + Shift + N",
+    "description": "Create a new layer"
+  },
+  {
+    "id": 87,
+    "category": "Photoshop",
+    "action": "Merge Layers",
+    "windows": "Ctrl + E",
+    "mac": "Cmd + E",
+    "linux": "Ctrl + E",
+    "description": "Merge selected layers"
+  },
+  {
+    "id": 88,
+    "category": "Photoshop",
+    "action": "Free Transform",
+    "windows": "Ctrl + T",
+    "mac": "Cmd + T",
+    "linux": "Ctrl + T",
+    "description": "Free transform selection"
+  },
+  {
+    "id": 89,
+    "category": "Photoshop",
+    "action": "Deselect",
+    "windows": "Ctrl + D",
+    "mac": "Cmd + D",
+    "linux": "Ctrl + D",
+    "description": "Deselect current selection"
+  },
+  {
+    "id": 90,
+    "category": "Photoshop",
+    "action": "Invert Selection",
+    "windows": "Ctrl + Shift + I",
+    "mac": "Cmd + Shift + I",
+    "linux": "Ctrl + Shift + I",
+    "description": "Invert current selection"
+  },
+  {
+    "id": 91,
+    "category": "Photoshop",
+    "action": "Levels",
+    "windows": "Ctrl + L",
+    "mac": "Cmd + L",
+    "linux": "Ctrl + L",
+    "description": "Open levels adjustment"
+  },
+  {
+    "id": 92,
+    "category": "Photoshop",
+    "action": "Curves",
+    "windows": "Ctrl + M",
+    "mac": "Cmd + M",
+    "linux": "Ctrl + M",
+    "description": "Open curves adjustment"
+  },
+  {
+    "id": 93,
+    "category": "Photoshop",
+    "action": "Hue/Saturation",
+    "windows": "Ctrl + U",
+    "mac": "Cmd + U",
+    "linux": "Ctrl + U",
+    "description": "Open hue/saturation dialog"
+  },
+  {
+    "id": 94,
+    "category": "Photoshop",
+    "action": "Brush Tool",
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "description": "Select brush tool"
+  },
+  {
+    "id": 95,
+    "category": "Photoshop",
+    "action": "Eraser Tool",
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "description": "Select eraser tool"
+  },
+  {
+    "id": 96,
+    "category": "Photoshop",
+    "action": "Move Tool",
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "description": "Select move tool"
+  },
+  {
+    "id": 97,
+    "category": "Photoshop",
+    "action": "Crop Tool",
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "description": "Select crop tool"
+  },
+  {
+    "id": 98,
+    "category": "Photoshop",
+    "action": "Zoom Tool",
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "description": "Select zoom tool"
+  },
+  {
+    "id": 99,
+    "category": "Photoshop",
+    "action": "Fill",
+    "windows": "Shift + F5",
+    "mac": "Shift + F5",
+    "linux": "Shift + F5",
+    "description": "Open fill dialog"
+  },
+  {
+    "id": 100,
+    "category": "Photoshop",
+    "action": "Step Backward",
+    "windows": "Ctrl + Alt + Z",
+    "mac": "Cmd + Option + Z",
+    "linux": "Ctrl + Alt + Z",
+    "description": "Undo multiple steps"
+  }
+]
